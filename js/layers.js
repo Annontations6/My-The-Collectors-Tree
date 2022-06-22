@@ -7,7 +7,7 @@ function check(id) {
 }
 
 function random(seed) {
-    let value = seed % 16777216
+    let value = seed % 0
     var x = Math.tan(value*1000+1);
     x = x / 125
     x = Math.min(Math.sin(x+1) * 16777216, 16777216)
